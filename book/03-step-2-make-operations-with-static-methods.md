@@ -11,8 +11,9 @@ class Operations:
 ```
 
 For division, raise `ValueError("Cannot divide by zero")` when the second number is zero. The CLI will catch that error and show its message.
-Next: [Step 3: Make the calculation and its factory](04-step-3-make-the-calculation-and-its-factory.md)
 
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
+
+Next: [Step 3: Make the calculation and its factory](04-step-3-make-the-calculation-and-its-factory.md)

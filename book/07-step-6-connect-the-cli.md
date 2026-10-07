@@ -53,8 +53,9 @@ Run `python -m calculator` from the repository root. Type `add 5 3`, then `histo
 
 Case-insensitive commands and skipping blank lines are useful choices, but are not extra grading requirements. The assignment covers ordinary numeric operands; extra handling of NaN/infinity is optional.
 
-Next: [Step 7: Test the behavior and reach 100% coverage](08-step-7-test-the-behavior-and-reach-100-coverage.md)
 
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
+
+Next: [Step 7: Test the behavior and reach 100% coverage](08-step-7-test-the-behavior-and-reach-100-coverage.md)

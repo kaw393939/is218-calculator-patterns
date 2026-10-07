@@ -28,10 +28,11 @@ jobs:
 ```
 
 Commit and push the workflow, source, tests, and requirements. Open your repository's **Actions** tab, select **Calculator tests**, and confirm that the latest run passes with 100% coverage. If it fails, open the failed step, fix the problem, and push again. The workflow file must be present; a screenshot alone does not replace it.
-Next: [Step 9: Explain your design in the README](10-step-9-explain-your-design-in-the-readme.md)
 
 `push` runs after a commit is pushed. `pull_request` runs for proposed changes. `workflow_dispatch` adds the Run workflow button, so you can start a run manually after enabling Actions in a fork. A green check for the small starter does not prove the missing features are implemented. Complete the checklist in the rubric chapter too.
 
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
+
+Next: [Step 9: Explain your design in the README](10-step-9-explain-your-design-in-the-readme.md)

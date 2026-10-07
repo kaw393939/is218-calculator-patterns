@@ -57,8 +57,9 @@ Do not let a fake-input iterator run out accidentally: that raises StopIteration
 
  Add separate assertions for error messages and verify a later valid command still works. Test decimals with `pytest.approx` when appropriate.
 
-Next: [Step 8: Run tests automatically on GitHub](09-step-8-run-tests-automatically-on-github.md)
 
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
+
+Next: [Step 8: Run tests automatically on GitHub](09-step-8-run-tests-automatically-on-github.md)

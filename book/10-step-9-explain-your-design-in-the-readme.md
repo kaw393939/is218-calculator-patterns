@@ -23,8 +23,9 @@ SOLID ideas
 | Dependency inversion | Give a command a Calculation abstraction and give a calculation an operation. Avoid hard-coding addition inside them. |
 
 Also explain static, class, and instance methods, and identify your Factory, Command, and Strategy. Add subtraction, multiplication, and division after the addition example and explain why calculation execution does not need to change. You do not need extra classes just to mention every principle.
-Next: [What to submit](11-what-to-submit.md)
 
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
+
+Next: [What to submit](11-what-to-submit.md)

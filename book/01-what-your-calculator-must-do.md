@@ -7,8 +7,9 @@
 * Accept decimals and negative numbers. End cleanly on end-of-input (EOF).
 
 Example: `add 5 3` prints `8` or `8.0`. Either format is fine. No GUI, database, plugins, or undo feature is required.
-Next: [Step 1: Give each part a home](02-step-1-give-each-part-a-home.md)
 
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
+
+Next: [Step 1: Give each part a home](02-step-1-give-each-part-a-home.md)

@@ -24,10 +24,11 @@ class CalculateCommand:
 
 Do not use `pragma: no cover` on this working method. Add a test that checks the returned answer and the new history entry. Then write `HistoryCommand`.
 
-Next: [Step 6: Connect the CLI](07-step-6-connect-the-cli.md)
 
 You may give CalculateCommand an optional label such as `add 5 3` so it can build a readable history string without printing or parsing input. The required jobs stay the same: execute, record success, return the result.
 
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
+
+Next: [Step 6: Connect the CLI](07-step-6-connect-the-cli.md)

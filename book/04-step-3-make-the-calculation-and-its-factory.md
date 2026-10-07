@@ -35,8 +35,9 @@ class ArithmeticCalculation(Calculation):
 ```
 
 Call `ArithmeticCalculation.create(...)`, not `Calculation.create(...)`. The abstract class cannot be created directly. This is a simple factory method using `cls`; it does not choose between subclasses.
-Next: [Step 4: Select the strategy from user input](05-step-4-select-the-strategy-from-user-input.md)
 
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
+
+Next: [Step 4: Select the strategy from user input](05-step-4-select-the-strategy-from-user-input.md)

@@ -38,7 +38,6 @@ python -m pip install -r requirements.txt
 Add `.venv/`, `__pycache__/`, `.pytest_cache/`, `.coverage`, and `htmlcov/` to `.gitignore`. Commit your source and tests, not your virtual environment.
 The starter already contains addition, the calculation classes, a few example tests, and the workflow. You must add the remaining operations, commands, CLI, and tests. A green starter check does **not** mean the assignment is complete.
 
-Next: [Step 2: Make operations with static methods](03-step-2-make-operations-with-static-methods.md)
 
 ## If activation does not work
 
@@ -56,3 +55,5 @@ The starter has no CLI entry point yet. `python -m calculator` will fail until y
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
+
+Next: [Step 2: Make operations with static methods](03-step-2-make-operations-with-static-methods.md)
