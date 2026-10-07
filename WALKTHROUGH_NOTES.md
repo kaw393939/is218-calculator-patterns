@@ -32,9 +32,31 @@ The rubric gives 30 points to CLI behavior, 30 to OOP/patterns, 20 to tests and 
 - Tests: 54 passed with 100% line coverage of all 89 measured application statements. Core behavior has no coverage exclusions.
 - Documentation: completed STUDENT_README.md with each method, pattern, OOP property, SOLID principle, setup/run/test command, and rubric evidence.
 - Instruction fixes: every planned book clarification above is implemented; main will receive only those book edits, not the completed calculator.
-- Actions: pending actual branch run; no success claimed until verified.
+- Actions: [actual branch run](https://github.com/kaw393939/is218-calculator-patterns/actions/runs/37670378046) passed on Python 3.12.
 - Real student repository access and Canvas submission remain outside this instructor simulation.
 
 ## Simulation limits
 
 The instructor account was used only to read Canvas. Actual GitHub account creation, student permissions, forking, and Canvas upload were not reproduced. I do not infer students' completion time or experience from my own run. The implementation branch is an instructor audit example; the student-facing main branch remains a starter.
+
+## Resolutions and final review
+
+Every instructional issue in the findings table is resolved in the book edits. The README and fork/submission chapters defer dates to Canvas and allow an existing repository. Setup names STUDENT_README.md and documents interpreter checks and direct environment executables. The strategy chapter adds imports and a runnable addition example. Commands explain shared history and an accepted string example. The CLI chapter includes the loop plan, scaffold, entry point, and EOF keys. Tests now check result lines and explain EOFError versus StopIteration. Actions documentation matches the committed workflow. The rubric has a final feature checklist. Next-chapter links sit below all lesson content.
+
+An actual CLI subprocess produced correct answers, recovered from division by zero, showed successful history in order without the failed division, and exited successfully. The full 54-test suite passes with 100% line coverage. GitHub verified the same implementation on Python 3.12.
+
+### Rubric evidence
+
+| Category | Audit evidence |
+| --- | --- |
+| CLI: 30 | All arithmetic commands, negative/decimal operands, invalid input recovery, ordered history, empty history, exit, and EOF tested. |
+| OOP/patterns: 30 | Static methods, ABC, inherited class factory, instance execute, functional strategies, two command classes, and alternative concrete calculation tested. |
+| Tests: 20 | 54 passing tests; 89 measured statements; 100% package coverage; only abstract placeholder and thin startup exclusions. |
+| Actions: 10 | Actual Python 3.12 workflow passed; 100% threshold retained. |
+| Explanations/submission: 10 | STUDENT_README.md and comments cover the requested explanations. Branch is pushed and accessible. Actual student fork/access and Canvas URL submission were deliberately not fabricated. |
+
+The technical work is ready against the rubric. This is not a posted grade. There are no unresolved code or book blockers found in this walkthrough; actual student-account/fork/submission checks remain the simulation limit.
+
+### Overall assignment assessment
+
+The assignment is achievable as a guided follow-up to an earlier calculator. The initial CLI chapter assumed too much: splitting commands, handling two kinds of errors, history, and EOF are several new steps at once. The expanded plan and scaffold make that step less abrupt. Keeping history in memory and strategies as static functions keeps the scope manageable. 100% line coverage is attainable without excluding working behavior, but the feature checklist is still needed because coverage alone cannot detect a missing feature.

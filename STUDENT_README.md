@@ -66,7 +66,7 @@ The factory is a simple class construction method, not a subclass-selection fact
 
 54 tests pass locally, and all 89 measured application statements are covered. Tests assert arithmetic answers, factory construction, interchangeable calculations, command results, history copying/order, failed history, CLI errors followed by success, history display, exit, and EOF. Importing the entry point is also checked to make sure it does not start input.
 
-The committed workflow uses Python 3.12 and runs on pushes, pull requests, and manual dispatch. It fails below 100% line coverage. The successful branch run link will be recorded after the first push.
+The committed workflow uses Python 3.12 and runs on pushes, pull requests, and manual dispatch. It fails below 100% line coverage. The [successful branch run](https://github.com/kaw393939/is218-calculator-patterns/actions/runs/37670378046) passed on Python 3.12.
 
 ## Coverage exclusions
 
@@ -82,7 +82,7 @@ No arithmetic, factory, command, history, parsing, or error-handling behavior is
 | Working CLI (30) | cli.py, operation tests, CLI conversation tests, subprocess smoke test | All requested behaviors implemented. |
 | OOP and patterns (30) | operations.py, calculation.py, commands.py; interchangeable calculation test | All required roles and method types implemented. |
 | Tests and coverage (20) | 54 passing tests, 100% of calculator package | Full code requirement met with two small explained exclusions. |
-| GitHub Actions (10) | tests.yml with 100% threshold | Awaiting actual branch run before claiming completion. |
+| GitHub Actions (10) | tests.yml with 100% threshold | Passed on GitHub for the completed implementation. |
 | Explanations and submission (10) | This file and useful source comments | Explanations complete; actual student fork/access and Canvas submission are not simulated. |
 
 This is a self-review of the instructor's audit branch, not a posted Canvas grade. No fabricated student submission was made.

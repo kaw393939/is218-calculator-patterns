@@ -1,3 +1,5 @@
+> **Instructor audit branch:** this branch contains the completed student simulation. The `main` branch remains the starter. Read [STUDENT_README.md](STUDENT_README.md) and [WALKTHROUGH_NOTES.md](WALKTHROUGH_NOTES.md) for results.
+
 # CLI Calculator: OOP, Design Patterns, and Testing
 
 A short assignment book for NJIT IS218. Build a terminal calculator one small step at a time. Learn static, class, and instance methods; abstraction, inheritance, polymorphism, encapsulation, and composition; Factory, Command, and Strategy; and simple SOLID responsibilities.
