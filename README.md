@@ -2,7 +2,7 @@
 
 A short assignment book for NJIT IS218. Build a terminal calculator one small step at a time. Learn static, class, and instance methods; abstraction, inheritance, polymorphism, encapsulation, and composition; Factory, Command, and Strategy; and simple SOLID responsibilities.
 
-**Start by [forking this repository](book/00-fork-and-submit.md).** Submit the URL of your own completed repository in Canvas. Check Canvas for your deadline.
+**Recommended: start by [forking this repository](book/00-fork-and-submit.md).** Submit the URL of your own completed repository in Canvas. Check Canvas for your deadline.
 
 ## Read the book
 
@@ -16,7 +16,7 @@ A short assignment book for NJIT IS218. Build a terminal calculator one small st
 - [Step 6: Connect the CLI](book/07-step-6-connect-the-cli.md)
 - [Step 7: Test the behavior and reach 100% coverage](book/08-step-7-test-the-behavior-and-reach-100-coverage.md)
 - [Step 8: Run tests automatically on GitHub](book/09-step-8-run-tests-automatically-on-github.md)
-- [Step 9: Explain your design in the README](book/10-step-9-explain-your-design-in-the-readme.md)
+- [Step 9: Explain your design in STUDENT_README.md](book/10-step-9-explain-your-design-in-the-readme.md)
 - [What to submit](book/11-what-to-submit.md)
 - [Basic rubric — 100 points](book/12-basic-rubric-100-points.md)
 - [Helpful references](book/13-helpful-references.md)

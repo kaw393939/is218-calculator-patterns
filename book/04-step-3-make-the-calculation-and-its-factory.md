@@ -4,7 +4,7 @@ A calculation holds two numbers and the operation to use. `self` means this part
 
 An abstract class is a shared promise. Every concrete calculation must provide `execute()`. Use `execute()` instead of `get_result()`. Put this starting code in `calculation.py` and keep comments explaining the method types.
 
-```
+```python
 from abc import ABC, abstractmethod
 from collections.abc import Callable
 
@@ -35,8 +35,8 @@ class ArithmeticCalculation(Calculation):
 ```
 
 Call `ArithmeticCalculation.create(...)`, not `Calculation.create(...)`. The abstract class cannot be created directly. This is a simple factory method using `cls`; it does not choose between subclasses.
+Next: [Step 4: Select the strategy from user input](05-step-4-select-the-strategy-from-user-input.md)
+
 ---
 
 [Back to the contents](../README.md) · [Start with forking](00-fork-and-submit.md)
-
-Next: [Step 4: Select the strategy from user input](05-step-4-select-the-strategy-from-user-input.md)
